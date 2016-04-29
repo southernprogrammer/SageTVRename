@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : settings.xml
+    Created on : May 4, 2010, 9:40 PM
+    Author     : Bryan Price
+    Description:
+        Settings for SageTVRename
+-->
+
+<config>
+    <dirs>
+        <dir>A SAGETV RECORDINGS FOLDER NO SLASH AT THE END</dir>
+        <dir>A SAGETV RECORDINGS FOLDER NO SLASH AT THE END</dir>
+        <dir>A SAGETV RECORDINGS FOLDER NO SLASH AT THE END</dir>
+    </dirs>
+    <newdir>WHERE TO PUT THE SYMLINKS NO SLASH AT THE END</newdir>
+    <authentication>True</authentication>
+    <username>USERNAME FOR SAGETV WEB INTERFACE</username>
+    <password>PASSWORD FOR SAGETV WEB INTERFACE</password>
+    <server>http://localhost:8080/sage/DetailedInfo</server>
+    <episodeYearInFolder>True</episodeYearInFolder>
+    <validExtensions>
+        <extension>.mpeg</extension>
+        <extension>.ts</extension>
+        <extension>.mpg</extension>
+    </validExtensions>
+    <purgedeadlinks>True</purgedeadlinks>
+    <platform>windows</platform>
+    <ignore>College Football</ignore>
+    <customname>
+        <from>The Office</from>
+        <to>The Office (US)</to>
+    </customname>
+    <customname>
+        <from>Mobile Home Disaster</from>
+        <to>Mobile Home Disasters</to>
+    </customname>
+</config>
